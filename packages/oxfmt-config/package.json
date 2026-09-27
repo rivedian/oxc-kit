@@ -16,9 +16,6 @@
   "scripts": {
     "build": "tsdown"
   },
-  "devDependencies": {
-    "oxfmt": "^0.70.0"
-  },
   "peerDependencies": {
     "oxfmt": ">=0.70.0"
   }
