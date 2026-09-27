@@ -2,5 +2,17 @@
   "name": "@rivedian/oxlint-config",
   "version": "0.0.0",
   "private": true,
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix"
+  },
+  "devDependencies": {
+    "oxlint": "^1.85.0",
+    "oxlint-tsgolint": "^7.0.2003"
+  },
+  "peerDependencies": {
+    "oxlint": ">=1.85.0",
+    "oxlint-tsgolint": ">=7.0.2003"
+  }
 }
