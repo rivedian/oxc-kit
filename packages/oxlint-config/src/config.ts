@@ -1,4 +1,4 @@
-import { defineConfig, type OxlintConfig } from 'oxlint';
+import { type OxlintConfig, defineConfig } from 'oxlint';
 
 export const config: OxlintConfig = defineConfig({
   overrides: [

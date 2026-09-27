@@ -1,4 +1,4 @@
-import { defineConfig, type OxlintConfig } from 'oxlint';
+import { type OxlintConfig, defineConfig } from 'oxlint';
 
 export const typescript: OxlintConfig = defineConfig({
   categories: {
@@ -18,6 +18,10 @@ export const typescript: OxlintConfig = defineConfig({
     reportUnusedDisableDirectives: 'error',
   },
   rules: {
+    'import/consistent-type-specifier-style': ['error', 'prefer-inline'],
+    'import/no-named-export': 'off',
+    'import/prefer-default-export': 'off',
     'sort-keys': 'off',
+    'typescript/consistent-type-imports': ['error', { fixStyle: 'inline-type-imports' }],
   },
 });

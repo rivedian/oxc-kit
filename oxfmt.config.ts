@@ -1,3 +1,1 @@
-import { config } from '@rivedian/oxfmt-config';
-
-export default config;
+export { config as default } from '@rivedian/oxfmt-config';

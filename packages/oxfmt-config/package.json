@@ -14,7 +14,9 @@
     }
   },
   "scripts": {
-    "build": "tsdown"
+    "build": "tsdown",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix"
   },
   "peerDependencies": {
     "oxfmt": ">=0.70.0"
