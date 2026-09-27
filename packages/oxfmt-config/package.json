@@ -2,10 +2,10 @@
   "name": "@rivedian/oxfmt-config",
   "version": "0.0.0",
   "private": true,
-  "type": "module",
   "files": [
     "dist"
   ],
+  "type": "module",
   "sideEffects": false,
   "exports": {
     ".": {
@@ -16,7 +16,9 @@
   "scripts": {
     "build": "tsdown",
     "lint": "oxlint",
-    "lint:fix": "oxlint --fix"
+    "lint:fix": "oxlint --fix",
+    "format": "oxfmt --check",
+    "format:fix": "oxfmt --write"
   },
   "peerDependencies": {
     "oxfmt": ">=0.70.0"
