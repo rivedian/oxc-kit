@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup
+        uses: pnpm/setup@v2
+        with:
+          cache: true
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Format
+        run: pnpm format
