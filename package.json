@@ -3,6 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "scripts": {
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "format": "turbo format"
+  },
   "devDependencies": {
     "@rivedian/oxfmt-config": "workspace:*",
     "@rivedian/oxlint-config": "workspace:*",
@@ -11,6 +16,7 @@
     "oxlint": "^1.85.0",
     "oxlint-tsgolint": "^7.0.2003",
     "tsdown": "^0.23.0",
+    "turbo": "^2.11.4",
     "typescript": "^7.0.2"
   },
   "devEngines": {
