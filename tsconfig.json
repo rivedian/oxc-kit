@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "moduleDetection": "force",
+    "verbatimModuleSyntax": true,
+    "outDir": "${configDir}/node_modules/.typescript",
+    "noEmit": true,
+    "lib": ["ESNext"],
+    "skipLibCheck": true,
+    "strict": true
+  }
+}
