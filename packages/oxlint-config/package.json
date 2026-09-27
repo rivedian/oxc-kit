@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "build": "tsdown",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix"
   },

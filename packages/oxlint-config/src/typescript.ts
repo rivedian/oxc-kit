@@ -1,6 +1,6 @@
-import { defineConfig } from 'oxlint';
+import { defineConfig, type OxlintConfig } from 'oxlint';
 
-export default defineConfig({
+export const typescript: OxlintConfig = defineConfig({
   categories: {
     correctness: 'error',
     nursery: 'error',
