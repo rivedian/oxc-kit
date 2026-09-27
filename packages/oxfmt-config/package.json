@@ -2,5 +2,11 @@
   "name": "@rivedian/oxfmt-config",
   "version": "0.0.0",
   "private": true,
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "oxfmt": "^0.70.0"
+  },
+  "peerDependencies": {
+    "oxfmt": ">=0.70.0"
+  }
 }
