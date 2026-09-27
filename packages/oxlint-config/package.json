@@ -2,6 +2,11 @@
   "name": "@rivedian/oxlint-config",
   "version": "0.0.0",
   "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Oleg Michailov",
+    "email": "oleg.michailov@rivedian.com"
+  },
   "files": [
     "dist"
   ],
