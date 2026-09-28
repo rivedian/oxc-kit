@@ -8,7 +8,7 @@ Hello 👋 Thank you for submitting a feature request.
 -->
 
 **Please describe your feature request**
-A clear and concise description of what the feature request is.
+A clear and concise description of what the feature request is and the problem it solves.
 
 **Code**
 If applicable, add code samples of what it will look like.
