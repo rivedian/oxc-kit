@@ -23,7 +23,8 @@
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
     "format": "oxfmt --check",
-    "format:fix": "oxfmt --write"
+    "format:fix": "oxfmt --write",
+    "verify": "run-p -c lint format"
   },
   "peerDependencies": {
     "oxfmt": ">=0.70.0"
