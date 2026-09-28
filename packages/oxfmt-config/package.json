@@ -1,22 +1,41 @@
 {
   "name": "@rivedian/oxfmt-config",
   "version": "0.0.0",
-  "private": true,
+  "description": "Opinionated shared oxfmt configuration with import sorting",
+  "keywords": [
+    "code-style",
+    "formatter",
+    "oxc",
+    "oxfmt",
+    "oxfmt-config",
+    "prettier",
+    "sort-imports"
+  ],
+  "bugs": "https://github.com/rivedian/oxc/issues",
   "license": "MIT",
   "author": {
     "name": "Oleg Michailov",
     "email": "oleg.michailov@rivedian.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rivedian/oxc.git",
+    "directory": "packages/oxfmt-config"
+  },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "type": "module",
   "sideEffects": false,
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "build": "tsdown",
@@ -24,7 +43,8 @@
     "lint:fix": "oxlint --fix",
     "format": "oxfmt --check",
     "format:fix": "oxfmt --write",
-    "verify": "run-p -c lint format"
+    "verify": "run-p -c lint format",
+    "prepublishOnly": "run-s build verify"
   },
   "peerDependencies": {
     "oxfmt": ">=0.70.0"
