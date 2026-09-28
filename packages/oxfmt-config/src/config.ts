@@ -1,6 +1,7 @@
 import { type OxfmtConfig, defineConfig } from 'oxfmt';
 
 export const config: OxfmtConfig = defineConfig({
+  printWidth: 120,
   arrowParens: 'avoid',
   singleQuote: true,
   sortImports: {
