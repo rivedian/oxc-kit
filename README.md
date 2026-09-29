@@ -1,4 +1,4 @@
-# Rivedian OXC
+# Rivedian Oxc Kit
 
 Shared packages for [Oxc](https://oxc.rs) — the Rust-powered linter and formatter.
 

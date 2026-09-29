@@ -11,7 +11,7 @@
     "oxlint-config",
     "typescript"
   ],
-  "bugs": "https://github.com/rivedian/oxc/issues",
+  "bugs": "https://github.com/rivedian/oxc-kit/issues",
   "license": "MIT",
   "author": {
     "name": "Oleg Michailov",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rivedian/oxc.git",
+    "url": "git+https://github.com/rivedian/oxc-kit.git",
     "directory": "packages/oxlint-config"
   },
   "files": [
