@@ -24,7 +24,12 @@ export const typescript: OxlintConfig = defineConfig({
     'import/no-relative-parent-imports': 'off',
     'import/prefer-default-export': 'off',
     'sort-keys': 'off',
+    'typescript/array-type': ['error', { default: 'generic' }],
+    'typescript/explicit-function-return-type': 'off',
+    'typescript/explicit-module-boundary-types': 'off',
+    'typescript/ban-ts-comment': 'off',
     'typescript/consistent-type-imports': ['error', { fixStyle: 'inline-type-imports' }],
     'typescript/no-import-type-side-effects': 'off',
+    'typescript/prefer-readonly-parameter-types': 'off',
   },
 });
