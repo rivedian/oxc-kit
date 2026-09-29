@@ -38,6 +38,19 @@ export default defineConfig({
 });
 ```
 
+### Vitest projects
+
+The `vitest` export relaxes rules for test files:
+
+```ts
+import { typescript, vitest } from '@rivedian/oxlint-config';
+import { defineConfig } from 'oxlint';
+
+export default defineConfig({
+  extends: [typescript, vitest],
+});
+```
+
 ### Extending
 
 Use `extends` together with additional rules to customize the config:

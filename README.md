@@ -30,11 +30,11 @@ npm add -D @rivedian/oxlint-config @rivedian/oxfmt-config oxlint oxlint-tsgolint
 Create `oxlint.config.ts`. The `typescript` preset is type-aware, so the project needs a `tsconfig.json`:
 
 ```ts
-import { config, typescript } from '@rivedian/oxlint-config';
+import { typescript, vitest } from '@rivedian/oxlint-config';
 import { defineConfig } from 'oxlint';
 
 export default defineConfig({
-  extends: [typescript, config],
+  extends: [typescript, vitest],
 });
 ```
 
