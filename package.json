@@ -6,8 +6,8 @@
   "scripts": {
     "build": "turbo build",
     "lint": "turbo lint",
-    "format": "turbo format",
-    "verify": "turbo lint format"
+    "format:check": "turbo format:check",
+    "verify": "turbo lint format:check"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.2.3",

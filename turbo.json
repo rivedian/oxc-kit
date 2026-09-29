@@ -8,7 +8,7 @@
     "lint": {
       "dependsOn": ["build"]
     },
-    "format": {
+    "format:check": {
       "dependsOn": ["build"]
     }
   }

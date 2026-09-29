@@ -28,11 +28,11 @@ export { config as default } from '@rivedian/oxfmt-config';
 Then run the formatter:
 
 ```sh
+# Fix formatting
+oxfmt
+
 # Check formatting
 oxfmt --check
-
-# Fix formatting
-oxfmt --write
 ```
 
 ## License

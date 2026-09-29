@@ -41,9 +41,9 @@
     "build": "tsdown",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
-    "format": "oxfmt --check",
-    "format:fix": "oxfmt --write",
-    "verify": "run-p -c lint format",
+    "format": "oxfmt",
+    "format:check": "oxfmt --check",
+    "verify": "run-p -c lint format:check",
     "prepublishOnly": "run-s build verify"
   },
   "peerDependencies": {
