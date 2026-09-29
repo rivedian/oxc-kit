@@ -19,9 +19,12 @@ export const typescript: OxlintConfig = defineConfig({
   },
   rules: {
     'import/consistent-type-specifier-style': ['error', 'prefer-inline'],
+    'import/max-dependencies': ['error', { ignoreTypeImports: true, max: 20 }],
     'import/no-named-export': 'off',
+    'import/no-relative-parent-imports': 'off',
     'import/prefer-default-export': 'off',
     'sort-keys': 'off',
     'typescript/consistent-type-imports': ['error', { fixStyle: 'inline-type-imports' }],
+    'typescript/no-import-type-side-effects': 'off',
   },
 });
