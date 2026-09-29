@@ -13,8 +13,6 @@ Includes opinionated defaults:
 
 ```sh
 npm add -D @rivedian/oxfmt-config oxfmt
-# or
-pnpm add -D @rivedian/oxfmt-config oxfmt
 ```
 
 ## Usage

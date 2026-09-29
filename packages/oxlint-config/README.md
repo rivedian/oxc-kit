@@ -6,8 +6,6 @@ Shared [oxlint](https://oxc.rs/docs/guide/usage/linter) configurations.
 
 ```sh
 npm add -D @rivedian/oxlint-config oxlint oxlint-tsgolint
-# or
-pnpm add -D @rivedian/oxlint-config oxlint oxlint-tsgolint
 ```
 
 ## Usage
