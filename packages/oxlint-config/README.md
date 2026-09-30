@@ -38,6 +38,19 @@ export default defineConfig({
 });
 ```
 
+### React projects
+
+The `react` export enables React, React performance, and accessibility rules for `.tsx` files:
+
+```ts
+import { react, typescript } from '@rivedian/oxlint-config';
+import { defineConfig } from 'oxlint';
+
+export default defineConfig({
+  extends: [typescript, react],
+});
+```
+
 ### Vitest projects
 
 The `vitest` export relaxes rules for test files:
