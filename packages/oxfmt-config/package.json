@@ -1,6 +1,6 @@
 {
   "name": "@rivedian/oxfmt-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Opinionated shared oxfmt configuration with import sorting",
   "keywords": [
     "code-style",
@@ -24,7 +24,8 @@
   },
   "files": [
     "dist",
-    "src"
+    "src",
+    "CHANGELOG.md"
   ],
   "type": "module",
   "sideEffects": false,

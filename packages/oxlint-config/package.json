@@ -1,6 +1,6 @@
 {
   "name": "@rivedian/oxlint-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Strict, type-aware shared oxlint configuration for TypeScript",
   "keywords": [
     "code-quality",
@@ -24,7 +24,8 @@
   },
   "files": [
     "dist",
-    "src"
+    "src",
+    "CHANGELOG.md"
   ],
   "type": "module",
   "sideEffects": false,
