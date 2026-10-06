@@ -12,3 +12,8 @@ pre-commit:
     oxfmt:
       glob: '**/*.{json,md,yaml,ts}'
       run: pnpm exec oxfmt --check {staged_files}
+
+pre-push:
+  commands:
+    build:
+      run: pnpm build
