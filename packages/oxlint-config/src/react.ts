@@ -3,7 +3,7 @@ import { type OxlintConfig, defineConfig } from 'oxlint';
 export const react: OxlintConfig = defineConfig({
   overrides: [
     {
-      files: ['*.tsx'],
+      files: ['*.tsx', '**/use*.ts'],
       env: {
         browser: true,
       },
