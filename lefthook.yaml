@@ -8,7 +8,7 @@ pre-commit:
   commands:
     oxlint:
       glob: '**/*.ts'
-      run: pnpm exec oxlint {staged_files}
+      run: pnpm exec oxlint {staged_files} --no-error-on-unmatched-pattern
     oxfmt:
       glob: '**/*.{json,md,yaml,ts}'
       run: pnpm exec oxfmt --check {staged_files}
