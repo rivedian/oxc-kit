@@ -16,6 +16,7 @@ export const react: OxlintConfig = defineConfig({
         'react/forbid-component-props': 'off',
         'react/no-multi-comp': ['error', { ignoreStateless: true }],
         'react/react-in-jsx-scope': 'off',
+        'react-perf/jsx-no-jsx-as-prop': 'off',
       },
     },
   ],
