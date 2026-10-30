@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.3.0 - 2026-10-06
+
+Relax more opinionated rules in presets.
+
+**TypeScript preset**
+
+- Turn off:
+  - `import/exports-last`
+  - `oxc/no-optional-chaining`
+  - `unicorn/no-null`
+- Ignore `1` and `10` in `no-magic-numbers`
+
+**React preset**
+
+- Turn off `react-perf/jsx-no-jsx-as-prop`
+
 ## 0.2.0 - 2026-10-06
 
 Relax opinionated rules and widen file patterns in presets.
