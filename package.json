@@ -15,7 +15,7 @@
     "@rivedian/oxfmt-config": "workspace:*",
     "@rivedian/oxlint-config": "workspace:*",
     "@types/node": "^26.6.3",
-    "lefthook": "^2.1.14",
+    "lefthook": "^2.2.2",
     "npm-run-all2": "^9.0.3",
     "oxfmt": "^0.70.0",
     "oxlint": "^1.85.0",
